@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BC10ABB7-B502-4308-B011-BB60DBBD806D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curso.ComercioElectronico.Application", "src\Curso.ComercioElectronico.Application\Curso.ComercioElectronico.Application.csproj", "{E56E20DF-494E-42A1-95F7-A1F4981D429F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curso.ComercioElectronico.Domain", "src\Curso.ComercioElectronico.Domain\Curso.ComercioElectronico.Domain.csproj", "{D7B15B79-C8CE-4CB2-993E-AE7845B65DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curso.ComercioElectronico.Infraestructure", "src\Curso.ComercioElectronico.Infraestructure\Curso.ComercioElectronico.Infraestructure.csproj", "{A4B0027D-EF83-406B-B2BC-15C5EC5D21EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curso.ComercioElectronico.HttpApi", "src\Curso.ComercioElectronico.HttpApi\Curso.ComercioElectronico.HttpApi.csproj", "{E8DB42B8-2EDB-436F-9C46-C1524CDE0FC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E56E20DF-494E-42A1-95F7-A1F4981D429F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56E20DF-494E-42A1-95F7-A1F4981D429F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56E20DF-494E-42A1-95F7-A1F4981D429F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56E20DF-494E-42A1-95F7-A1F4981D429F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B15B79-C8CE-4CB2-993E-AE7845B65DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B15B79-C8CE-4CB2-993E-AE7845B65DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B15B79-C8CE-4CB2-993E-AE7845B65DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B15B79-C8CE-4CB2-993E-AE7845B65DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B0027D-EF83-406B-B2BC-15C5EC5D21EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B0027D-EF83-406B-B2BC-15C5EC5D21EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B0027D-EF83-406B-B2BC-15C5EC5D21EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B0027D-EF83-406B-B2BC-15C5EC5D21EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8DB42B8-2EDB-436F-9C46-C1524CDE0FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8DB42B8-2EDB-436F-9C46-C1524CDE0FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8DB42B8-2EDB-436F-9C46-C1524CDE0FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DB42B8-2EDB-436F-9C46-C1524CDE0FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E56E20DF-494E-42A1-95F7-A1F4981D429F} = {BC10ABB7-B502-4308-B011-BB60DBBD806D}
+		{D7B15B79-C8CE-4CB2-993E-AE7845B65DDC} = {BC10ABB7-B502-4308-B011-BB60DBBD806D}
+		{A4B0027D-EF83-406B-B2BC-15C5EC5D21EB} = {BC10ABB7-B502-4308-B011-BB60DBBD806D}
+		{E8DB42B8-2EDB-436F-9C46-C1524CDE0FC4} = {BC10ABB7-B502-4308-B011-BB60DBBD806D}
+	EndGlobalSection
+EndGlobal
